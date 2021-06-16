@@ -153,7 +153,7 @@ tape( 'the function accommodates older Node.js environments', opts, function tes
 	}
 
 	readWASM = proxyquire( './../lib/sync.js', {
-		'@stdlib/fs/read-file': {
+		'@stdlib/fs-read-file': {
 			'sync': readFile
 		}
 	});
@@ -196,7 +196,7 @@ tape( 'the function supports newer Node.js environments', opts, function test( t
 	}
 
 	readWASM = proxyquire( './../lib/sync.js', {
-		'@stdlib/fs/read-file': {
+		'@stdlib/fs-read-file': {
 			'sync': readFile
 		}
 	});

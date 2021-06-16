@@ -232,7 +232,7 @@ tape( 'the function accommodates older Node.js environments', opts, function tes
 	}
 
 	readWASM = proxyquire( './../lib/async.js', {
-		'@stdlib/fs/read-file': readFile
+		'@stdlib/fs-read-file': readFile
 	});
 	readWASM( WASM, onRead );
 
@@ -278,7 +278,7 @@ tape( 'the function supports newer Node.js environments', opts, function test( t
 	}
 
 	readWASM = proxyquire( './../lib/async.js', {
-		'@stdlib/fs/read-file': readFile
+		'@stdlib/fs-read-file': readFile
 	});
 	readWASM( WASM, onRead );
 
