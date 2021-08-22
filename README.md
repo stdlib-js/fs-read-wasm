@@ -192,7 +192,7 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/fs-read-wasm/main/LICENSE
 
-[webassembly]: http://webassembly.org/
+[webassembly]: https://webassembly.org/
 
 [@stdlib/fs/read-file]: https://github.com/stdlib-js/fs-read-file
 
