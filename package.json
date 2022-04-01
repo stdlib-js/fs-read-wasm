@@ -1,0 +1,36 @@
+{
+  "name": "@stdlib/fs-read-wasm",
+  "version": "0.0.0",
+  "description": "Read a file as WebAssembly.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/fs-read-wasm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdfs",
+    "fs",
+    "readfile",
+    "readfilesync",
+    "path",
+    "async",
+    "sync",
+    "file",
+    "read",
+    "open",
+    "filesystem",
+    "wasm",
+    "webassembly"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
