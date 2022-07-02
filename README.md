@@ -53,7 +53,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.readWASM;
+})();
 })();
 </script>
 ```
@@ -129,6 +131,7 @@ The function accepts the same `options` as [`readWASM()`](#read-wasm) above.
 <body>
 <script type="text/javascript">
 (function () {
+(function () {
 var join = require( 'path' ).join;
 var hasWebAssemblySupport = require( '@stdlib/assert-has-wasm-support' );
 var readWASM = require( '@stdlib/fs-read-wasm' );
@@ -153,6 +156,7 @@ function onRead( error, wasm ) {
     }
 }
 
+})();
 })();
 </script>
 </body>
@@ -248,13 +252,13 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [webassembly]: https://webassembly.org/
 
-[@stdlib/fs/read-file]: https://github.com/stdlib-js/fs-read-file/tree/umd
+[@stdlib/fs/read-file]: https://github.com/stdlib-js/fs-read-file/tree/umd/tree/umd
 
-[@stdlib/array/uint8]: https://github.com/stdlib-js/array-uint8/tree/umd
+[@stdlib/array/uint8]: https://github.com/stdlib-js/array-uint8/tree/umd/tree/umd
 
 <!-- <related-links> -->
 
-[@stdlib/fs/read-file]: https://github.com/stdlib-js/fs-read-file/tree/umd
+[@stdlib/fs/read-file]: https://github.com/stdlib-js/fs-read-file/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
