@@ -21,7 +21,7 @@
 // MODULES //
 
 var join = require( 'path' ).join;
-var bench = require( '@stdlib/bench' );
+var bench = require( '@stdlib/bench-harness' );
 var pkg = require( './../package.json' ).name;
 var readWASM = require( './../lib' );
 
