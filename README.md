@@ -35,38 +35,30 @@ limitations under the License.
 
 > Read a file as [WebAssembly][webassembly].
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/fs-read-wasm
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-readWASM = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-read-wasm@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var readWASM = require( 'path/to/vendor/umd/fs-read-wasm/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/fs-read-wasm@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.readWASM;
-})();
-</script>
+var readWASM = require( '@stdlib/fs-read-wasm' );
 ```
 
 <a name="read-wasm"></a>
@@ -134,12 +126,7 @@ The function accepts the same `options` as [`readWASM()`](#read-wasm) above.
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript">
-(function () {
+```javascript
 var join = require( 'path' ).join;
 var hasWebAssemblySupport = require( '@stdlib/assert-has-wasm-support' );
 var readWASM = require( '@stdlib/fs-read-wasm' );
@@ -163,11 +150,6 @@ function onRead( error, wasm ) {
         console.log( wasm );
     }
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -259,13 +241,11 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 [webassembly]: https://webassembly.org/
 
-[@stdlib/fs/read-file]: https://github.com/stdlib-js/fs-read-file/tree/umd
+[@stdlib/fs/read-file]: https://github.com/stdlib-js/fs-read-file
 
-[@stdlib/array/uint8]: https://github.com/stdlib-js/array-uint8/tree/umd
+[@stdlib/array/uint8]: https://github.com/stdlib-js/array-uint8
 
 <!-- <related-links> -->
-
-
 
 <!-- </related-links> -->
 
