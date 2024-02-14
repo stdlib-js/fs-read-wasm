@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/fs-read-wasm",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Read a file as WebAssembly.",
   "license": "Apache-2.0",
   "author": {
@@ -37,19 +37,19 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-uint8": "^0.1.1",
-    "@stdlib/assert-instance-of": "^0.1.1",
-    "@stdlib/assert-is-function": "^0.1.1",
-    "@stdlib/assert-is-plain-object": "^0.1.1",
-    "@stdlib/assert-is-uint8array": "^0.1.1",
-    "@stdlib/fs-read-file": "^0.1.1",
-    "@stdlib/string-format": "^0.1.1",
-    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.1.1"
+    "@stdlib/array-uint8": "^0.2.0",
+    "@stdlib/assert-instance-of": "^0.2.0",
+    "@stdlib/assert-is-function": "^0.2.0",
+    "@stdlib/assert-is-plain-object": "^0.2.0",
+    "@stdlib/assert-is-uint8array": "^0.2.0",
+    "@stdlib/fs-read-file": "^0.2.0",
+    "@stdlib/string-format": "^0.2.0",
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.0"
   },
   "devDependencies": {
-    "@stdlib/assert-has-wasm-support": "^0.1.1",
+    "@stdlib/assert-has-wasm-support": "^0.2.0",
     "@stdlib/assert-is-browser": "^0.1.1",
-    "@stdlib/utils-noop": "^0.1.1",
+    "@stdlib/utils-noop": "^0.2.0",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
