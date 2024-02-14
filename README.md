@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import readWASM from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-read-wasm@deno/mod.js';
+import readWASM from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-read-wasm@v0.2.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { sync } from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-read-wasm@deno/mod.js';
+import { sync } from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-read-wasm@v0.2.0-deno/mod.js';
 ```
 
 <a name="read-wasm"></a>
@@ -119,7 +119,7 @@ The function accepts the same `options` as [`readWASM()`](#read-wasm) above.
 ```javascript
 var join = require( 'path' ).join;
 import hasWebAssemblySupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-wasm-support@deno/mod.js';
-import readWASM from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-read-wasm@deno/mod.js';
+import readWASM from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-read-wasm@v0.2.0-deno/mod.js';
 
 var fpath = join( __dirname, 'examples', 'fixtures', 'file.wasm' );
 readWASM( fpath, onRead );
