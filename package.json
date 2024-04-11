@@ -43,7 +43,7 @@
     "@stdlib/assert-is-plain-object": "^0.2.1",
     "@stdlib/assert-is-uint8array": "^0.2.1",
     "@stdlib/fs-read-file": "^0.2.1",
-    "@stdlib/string-format": "^0.2.1",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.1",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.1",
     "@stdlib/error-tools-fmtprodmsg": "^0.2.1"
   },
