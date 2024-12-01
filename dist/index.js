@@ -1,7 +1,0 @@
-"use strict";var c=function(u,e){return function(){return e||u((e={exports:{}}).exports,e),e.exports}};var f=c(function(W,g){
-var y=require('@stdlib/assert-is-plain-object/dist'),h=require('@stdlib/assert-is-function/dist'),b=require('@stdlib/assert-is-uint8array/dist'),w=require('@stdlib/fs-read-file/dist'),A=require('@stdlib/array-uint8/dist'),o=require('@stdlib/error-tools-fmtprodmsg/dist');function O(u,e,t){var n,r;if(arguments.length<3)n={},r=e;else{if(!y(e))throw new TypeError(o('0OJ2V',e));n=e,r=t}if(!h(r))throw new TypeError(o('0OJ2b',r));n.encoding=null,w(u,n,a);function a(l,i){var v,s;if(l)return r(l);if(b(i))return r(null,i);for(v=new A(i.length),s=0;s<i.length;s++)v[s]=i[s];r(null,v)}}g.exports=O
-});var d=c(function(R,q){
-var p=require('@stdlib/assert-is-plain-object/dist'),S=require('@stdlib/assert-is-uint8array/dist'),j=require('@stdlib/assert-instance-of/dist'),E=require('@stdlib/fs-read-file/dist').sync,U=require('@stdlib/array-uint8/dist'),x=require('@stdlib/error-tools-fmtprodmsg/dist');function F(u,e){var t,n,r,a;if(arguments.length>1){if(!p(e))throw new TypeError(x('0OJ2V',e));t=e}else t={};if(t.encoding=null,r=E(u,t),j(r,Error)||S(r))return r;for(n=new U(r.length),a=0;a<r.length;a++)n[a]=r[a];return n}q.exports=F
-});var M=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),m=f(),T=d();M(m,"sync",T);module.exports=m;
-/** @license Apache-2.0 */
-//# sourceMappingURL=index.js.map
