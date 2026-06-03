@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-29)
+## Unreleased (2026-06-03)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`e395421`](https://github.com/stdlib-js/stdlib/commit/e39542108e935a03835c3bcd17db0c69a9033e26) - **docs:** qualify async behavior in function descriptions [(#12481)](https://github.com/stdlib-js/stdlib/pull/12481) _(by Philipp Burckhardt)_
 -   [`1228698`](https://github.com/stdlib-js/stdlib/commit/122869845328a51c626f11d299f1ae3c699c5c71) - **bench:** refactor to use string interpolation in `fs` [(#11615)](https://github.com/stdlib-js/stdlib/pull/11615) _(by Karan Anand)_
 
 </details>
@@ -24,9 +25,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Karan Anand
+-   Philipp Burckhardt
 
 </section>
 
